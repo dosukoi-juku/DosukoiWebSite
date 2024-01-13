@@ -7,6 +7,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Fetch members data and display on page load
+window.onload = function() {
+  fetch('members.json')
+    .then(response => response.json())
+    .then(data => displayMembers(data))
+    .catch(error => console.error('Error loading member data:', error));
+
+  fetch('content.json')
+    .then(response => response.json())
+    .then(data => displayContent(data))
+    .catch(error => console.error('Error loading content.json data: ', error));
+};
+
 function displayMembers(members) {
     const membersContainer = document.getElementById('members');
     members.forEach(member => {
@@ -21,10 +34,7 @@ function displayMembers(members) {
     });
 }
 
-// Fetch members data and display on page load
-window.onload = function() {
-    fetch('members.json')
-        .then(response => response.json())
-        .then(data => displayMembers(data))
-        .catch(error => console.error('Error loading member data:', error));
-};
+function displayContent(content) {
+    document.getElementById('welcome-content').innerText = content.welcome.content;
+    document.getElementById('overview-content').innerText = content.overview.content;
+}

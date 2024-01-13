@@ -1,0 +1,11 @@
+{
+    "welcome": {
+        "title": "Welcome to Our Community Hello World",
+        "content": "Welcome message and introduction."
+    },
+    "overview": {
+        "title": "Community Overview",
+        "content": "Information about the community."
+    }
+}
+

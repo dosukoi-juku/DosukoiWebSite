@@ -1,0 +1,53 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: black;
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title {
+    color: white;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+}
+
+/* 通常、訪問済み、マウスオーバー時、アクティブ時のリンクの色を緑色に設定 */
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+    color: green;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+
+/* メンバーリスト内のリンクにも同じスタイルを適用 */
+.member a:link, .member a:visited, .member a:hover, .member a:active {
+    color: green;
+    text-decoration: none;
+}
+

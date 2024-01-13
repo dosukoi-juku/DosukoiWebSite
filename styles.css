@@ -16,7 +16,18 @@ header {
     color: white;
 }
 
+/* レスポンシブデザインのためのメディアクエリ */
+@media (max-width: 800px) {
+    .member {
+        flex-basis: 45%; /* 画面幅が800px以下の場合、ベースサイズを変更 */
+    }
+}
 
+@media (max-width: 500px) {
+    .member {
+        flex-basis: 100%; /* 画面幅が500px以下の場合、フル幅で表示 */
+    }
+}
 
 nav ul {
     list-style-type: none;
@@ -49,5 +60,18 @@ section {
 .member a:link, .member a:visited, .member a:hover, .member a:active {
     color: green;
     text-decoration: none;
+}
+
+/* Community Members セクションのスタイル */
+#members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* メンバー間の間隔 */
+}
+
+.member {
+    flex-basis: 30%; /* 各メンバーのベースサイズ */
+    text-align: center; /* テキストを中央揃えに */
 }
 

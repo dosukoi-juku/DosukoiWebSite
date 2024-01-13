@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.search);
 const memberName = params.get('name');
 
 // members.jsonからデータを取得
-fetch('../members.json')
+fetch('../API/members.json')
     .then(response => response.json())
     .then(members => {
         const member = members.find(m => m.name === memberName);

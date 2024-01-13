@@ -9,12 +9,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Fetch members data and display on page load
 window.onload = function() {
-  fetch('members.json')
+  fetch('./API/members.json')
     .then(response => response.json())
     .then(data => displayMembers(data))
     .catch(error => console.error('Error loading member data:', error));
 
-  fetch('content.json')
+  fetch('./API/content.json')
     .then(response => response.json())
     .then(data => displayContent(data))
     .catch(error => console.error('Error loading content.json data: ', error));

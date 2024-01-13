@@ -1,0 +1,98 @@
+[
+    {
+        "name": "どすこい",
+        "twitterUrl": "https://twitter.com/dosukoi_android",
+        "githubUrl": "https://github.com/Naoki-Hidaka",
+        "icon": "https://pbs.twimg.com/profile_images/1479851251877937153/uwoVuY0l_400x400.jpg",
+        "platforms": ["android"],
+        "bio": "TBD"
+    },
+    {
+        "name": "Uhooi",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://twitter.com/the_uhooi",
+        "icon": "https://avatars.githubusercontent.com/u/21194714?v=4",
+        "platforms": ["apple"],
+        "bio": "TBD"
+    },
+    {
+        "name": "スイミー",
+        "twitterUrl": "https://github.com/swimmy-reo",
+        "githubUrl": "https://twitter.com/RunningReo",
+        "icon": "https://avatars.githubusercontent.com/u/65647834?v=4",
+        "platforms": ["android"],
+        "bio": "TBD"
+    },
+    {
+        "name": "みっちゃん",
+        "twitterUrl": "https://twitter.com/mimimi_engineer",
+        "githubUrl": "https://github.com/iroha-168",
+        "icon": "https://avatars.githubusercontent.com/u/67794229?v=4",
+        "platforms": ["android"],
+        "bio": "TBD"
+    },
+    {
+        "name": "ぶる",
+        "twitterUrl": "https://twitter.com/assa_012",
+        "githubUrl": "https://github.com/asa-012",
+        "icon": "https://avatars.githubusercontent.com/u/68365112?v=4",
+        "platforms": ["android"],
+        "bio": "TBD"
+    },
+    {
+        "name": "とんとんぼ",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["apple"],
+        "bio": "私が作りました"
+    },
+    {
+        "name": "Reen",
+        "twitterUrl": "https://twitter.com/reeen21_dev",
+        "githubUrl": "https://github.com/reeen21",
+        "icon": "https://pbs.twimg.com/profile_images/1647985655849586689/_LsrJr8m_400x400.jpg",
+        "platforms": ["apple"],
+        "bio": "TBD"
+    },
+    {
+        "name": "みやゆ星",
+        "twitterUrl": "https://twitter.com/yuu1111main",
+        "githubUrl": "https://github.com/yuchan2215",
+        "icon": "https://avatars.githubusercontent.com/u/38094366?v=4",
+        "platforms": ["apple"],
+        "bio": "TBD"
+    },
+    {
+        "name": "jim",
+        "twitterUrl": "TBD",
+        "githubUrl": "https://github.com/Jim112o",
+        "icon": "https://avatars.githubusercontent.com/u/58577193?v=4",
+        "platforms": ["android"],
+        "bio": "TBD"
+    },
+    {
+        "name": "ばくぷー (ᐡ• ﻌ • ᐡ)",
+        "twitterUrl": "https://twitter.com/naoki_mrmt",
+        "githubUrl": "https://github.com/orgs/dosukoi-juku/people",
+        "icon": "https://avatars.githubusercontent.com/u/70731623?v=4",
+        "platforms": ["apple"],
+        "bio": "TBD"
+    },
+    {
+        "name": "チタタプ",
+        "twitterUrl": "https://twitter.com/iQbu_",
+        "githubUrl": "https://github.com/i-Qbu",
+        "icon": "https://pbs.twimg.com/profile_images/1672194107060649984/BnIxy2Ed_400x400.jpg",
+        "platforms": ["apple"],
+        "bio": "TBD"
+    },
+    {
+        "name": "hinakko",
+        "twitterUrl": "https://twitter.com/hinakkograshi",
+        "githubUrl": "https://github.com/hinakkograshi",
+        "icon": "https://avatars.githubusercontent.com/u/131275914?v=4",
+        "platforms": ["apple", "golang"],
+        "bio": "TBD"
+    }
+]

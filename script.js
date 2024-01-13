@@ -26,7 +26,8 @@ function displayMembers(members) {
         const memberDiv = document.createElement('div');
         memberDiv.className = 'member';
         memberDiv.innerHTML = `
-            <p><i class="fas fa-user"></i> ${member.name}</p>
+            <p><i class="fas fa-user"></i> <a href="profile/member.html?name=${encodeURIComponent(member.name)}">${member.name}</a></p>
+
             <p><i class="fab fa-twitter"></i> <a href="${member.twitterUrl}">Twitter</a></p>
             <p><i class="fab fa-github"></i> <a href="${member.githubUrl}">GitHub</a></p>
         `;

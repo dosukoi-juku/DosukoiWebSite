@@ -16,17 +16,31 @@ header {
     color: white;
 }
 
-/* レスポンシブデザインのためのメディアクエリ */
-@media (max-width: 800px) {
+/* スマートフォンや小さなタブレット向けのスタイル */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; /* フォントサイズを大きくする */
+    }
+
+    /* プロフィール画像のサイズを大きくする */
+    #member-profile img {
+        max-width: 300px; /* 画像の最大幅を増やす */
+    }
+
+    /* メンバーリストのレイアウトを調整 */
     .member {
-        flex-basis: 45%; /* 画面幅が800px以下の場合、ベースサイズを変更 */
+        flex-basis: 100%; /* メンバーを1列に表示 */
+        text-align: left; /* テキストを左揃えにする */
     }
 }
 
-@media (max-width: 500px) {
-    .member {
-        flex-basis: 100%; /* 画面幅が500px以下の場合、フル幅で表示 */
+/* 中サイズのデバイス向けのスタイル */
+@media (min-width: 601px) and (max-width: 800px) {
+    body {
+        font-size: 14px; /* フォントサイズを適切に調整 */
     }
+
+    /* その他の必要なスタイル調整 */
 }
 
 nav ul {
@@ -73,5 +87,11 @@ section {
 .member {
     flex-basis: 30%; /* 各メンバーのベースサイズ */
     text-align: center; /* テキストを中央揃えに */
+}
+
+/* プロフィール画像のスタイル */
+#member-profile img {
+    max-width: 150px; /* 最大幅を150pxに設定 */
+    height: auto; /* 高さを自動調整 */
 }
 

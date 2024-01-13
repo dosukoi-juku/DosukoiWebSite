@@ -1,12 +1,98 @@
 [
     {
-        "name": "とんとんぼ",
-        "twitterUrl": "https://twitter.com/Ktombow1110",
-        "githubUrl": "https://github.com/KaitoMuraoka"
+        "name": "どすこい",
+        "twitterUrl": "https://twitter.com/dosukoi_android",
+        "githubUrl": "https://github.com/Naoki-Hidaka",
+        "icon": "https://pbs.twimg.com/profile_images/1479851251877937153/uwoVuY0l_400x400.jpg",
+        "platforms": ["android"],
+        "bio": "TBD"
     },
     {
-        "name": "名無し太郎",
-        "twitterUrl": "https://twitter.com/janesmith",
-        "githubUrl": "https://github.com/janesmith"
+        "name": "Uhooi",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://twitter.com/the_uhooi",
+        "icon": "https://avatars.githubusercontent.com/u/21194714?v=4",
+        "platforms": ["apple"],
+        "bio": "TBD"
+    },
+    {
+        "name": "スイミー",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "みっちゃん",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "ぶる",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "とんとんぼ",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "Reen",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "みやゆ星",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "jim",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "みやゆ星",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "チタタプ",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
+    },
+    {
+        "name": "hinakko",
+        "twitterUrl": "https://twitter.com/Ktombow1110",
+        "githubUrl": "https://github.com/KaitoMuraoka",
+        "icon": "https://avatars.githubusercontent.com/u/70003919?v=4",
+        "platforms": ["android"],
+        "bio": "Experienced Android and Web developer..."
     }
 ]

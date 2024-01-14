@@ -9,16 +9,16 @@
     },
     {
         "name": "Uhooi",
-        "twitterUrl": "https://twitter.com/Ktombow1110",
-        "githubUrl": "https://twitter.com/the_uhooi",
+        "twitterUrl": "https://twitter.com/the_uhooi",
+        "githubUrl": "https://github.com/uhooi",
         "icon": "https://avatars.githubusercontent.com/u/21194714?v=4",
         "platforms": ["apple"],
         "bio": "TBD"
     },
     {
         "name": "スイミー",
-        "twitterUrl": "https://github.com/swimmy-reo",
-        "githubUrl": "https://twitter.com/RunningReo",
+        "twitterUrl": "https://twitter.com/RunningReo",
+        "githubUrl": "https://github.com/swimmy-reo",
         "icon": "https://avatars.githubusercontent.com/u/65647834?v=4",
         "platforms": ["android"],
         "bio": "TBD"

@@ -1,7 +1,11 @@
+:root {
+  --text-color: rgb(122, 250, 79);
+}
+
 body {
     font-family: 'Courier New', monospace;
-    background-color: black;
-    color: rgb(94, 215, 54);
+    background-color: rgb(2, 2, 3);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
 }
@@ -55,7 +59,7 @@ nav ul li {
 }
 
 nav a {
-    color: green;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -72,7 +76,7 @@ section {
 
 /* メンバーリスト内のリンクにも同じスタイルを適用 */
 .member a:link, .member a:visited, .member a:hover, .member a:active {
-    color: green;
+    color: var(--color-text);
     text-decoration: none;
 }
 

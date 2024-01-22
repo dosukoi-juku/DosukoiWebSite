@@ -1,7 +1,11 @@
+:root {
+  --text-color: rgb(122, 250, 79);
+}
+
 body {
     font-family: 'Courier New', monospace;
-    background-color: black;
-    color: green;
+    background-color: rgb(2, 2, 3);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
 }
@@ -9,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10pt;
 }
 
 .title {
@@ -17,14 +21,14 @@ header {
 }
 
 /* スマートフォンや小さなタブレット向けのスタイル */
-@media (max-width: 600px) {
+@media (max-width: 600pt) {
     body {
-        font-size: 16px; /* フォントサイズを大きくする */
+        font-size: 12pt; /* フォントサイズを大きくする */
     }
 
     /* プロフィール画像のサイズを大きくする */
     #member-profile img {
-        max-width: 300px; /* 画像の最大幅を増やす */
+        max-width: 300pt; /* 画像の最大幅を増やす */
     }
 
     /* メンバーリストのレイアウトを調整 */
@@ -35,9 +39,9 @@ header {
 }
 
 /* 中サイズのデバイス向けのスタイル */
-@media (min-width: 601px) and (max-width: 800px) {
+@media (min-width: 601pt) and (max-width: 800pt) {
     body {
-        font-size: 14px; /* フォントサイズを適切に調整 */
+        font-size: 14pt; /* フォントサイズを適切に調整 */
     }
 
     /* その他の必要なスタイル調整 */
@@ -51,28 +55,28 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 20pt;
 }
 
 nav a {
-    color: green;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 /* 通常、訪問済み、マウスオーバー時、アクティブ時のリンクの色を緑色に設定 */
 nav a:link, nav a:visited, nav a:hover, nav a:active {
-    color: green;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 section {
-    padding: 20px;
+    padding: 20pt;
 }
 
 
 /* メンバーリスト内のリンクにも同じスタイルを適用 */
 .member a:link, .member a:visited, .member a:hover, .member a:active {
-    color: green;
+    color: var(--color-text);
     text-decoration: none;
 }
 
@@ -81,17 +85,17 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px; /* メンバー間の間隔 */
+    gap: 20pt; /* メンバー間の間隔 */
 }
 
 .member {
     flex-basis: 30%; /* 各メンバーのベースサイズ */
-    text-align: center; /* テキストを中央揃えに */
+    text-align: left; /* テキストを中央揃えに */
 }
 
 /* プロフィール画像のスタイル */
 #member-profile img {
-    max-width: 150px; /* 最大幅を150pxに設定 */
+    max-width: 150pt; /* 最大幅を150ptに設定 */
     height: auto; /* 高さを自動調整 */
 }
 

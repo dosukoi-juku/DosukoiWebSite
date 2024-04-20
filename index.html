@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>どすこい Terminal</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="script.js" defer></script>
+<meta charset="UTF-8">
+<title>どすこい塾 Terminal</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="title">どすこい塾 Terminal</div>
-        <nav>
-            <ul>
-                <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#members">Members</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Welcome to どすこい塾</h2>
-        <section id="welcome">
-            <p id="welcome-content">Hello World</p>
-        </section>
-
-        <h2>Community Overview</h2>
-        <section id="overview">
-            <p id="overview-content">ここはどすこい塾だよ！</p>
-        </section>
-
-        <h2>Community Members</h2>
-        <section id="members">
-            <!-- Members will be dynamically inserted here -->
-        </section>
-    </main>
+<div id="terminal">
+    <pre>
+      _   _      _ _         ____                  _         _    ____                                      _ _         _ 
+      | | | | ___| | | ___   |  _ \  ___  ___ _   _| | _____ (_)  / ___|___  _ __ ___  _ __ ___  _   _ _ __ (_) |_ _   _| |
+      | |_| |/ _ \ | |/ _ \  | | | |/ _ \/ __| | | | |/ / _ \| | | |   / _ \| '_ ` _ \| '_ ` _ \| | | | '_ \| | __| | | | |
+      |  _  |  __/ | | (_) | | |_| | (_) \__ \ |_| |   < (_) | | | |__| (_) | | | | | | | | | | | |_| | | | | | |_| |_| |_|
+      |_| |_|\___|_|_|\___/  |____/ \___/|___/\__,_|_|\_\___/|_|  \____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|_|\__|\__, (_)
+                                                                                                                   |___/   
+    </pre>
+  <div id="output"></div>  
+  <div id="input-line" class="input-line">
+        <span class="prompt">$</span>
+        <input type="text" id="input" autofocus>
+    </div>
+</div>
+<script src="script.js"></script>
+<script src="commands.js"></script>
 </body>
 </html>
